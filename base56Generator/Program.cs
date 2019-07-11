@@ -6,6 +6,8 @@ namespace base56Generator
     {
         static void Main(string[] args)
         {
+            var a = Guid.NewGuid();
+            
             Console.WriteLine("Generator");
         }
     }

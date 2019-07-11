@@ -1,0 +1,41 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Repetition .NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build Repetition",
+            "program": "${workspaceFolder}/base56Repetition/bin/Debug/netcoreapp3.0/base56Repetition.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/base56Repetition",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Generator .NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build Generator",
+            "program": "${workspaceFolder}/base56Generator/bin/Debug/netcoreapp3.0/base56Generator.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/base56Generator",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Calculator .NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build Calculator",
+            "program": "${workspaceFolder}/base56Calculator/bin/Debug/netcoreapp3.0/base56Calculator.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/base56Calculator",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        }
+    ]
+}

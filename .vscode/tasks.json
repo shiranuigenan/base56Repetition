@@ -1,0 +1,35 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build Repetition",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/base56Repetition/base56Repetition.csproj"
+            ],
+            "problemMatcher": "$tsc"
+        },
+        {
+            "label": "build Generator",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/base56Generator/base56Generator.csproj"
+            ],
+            "problemMatcher": "$tsc"
+        },
+        {
+            "label": "build Calculator",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/base56Calculator/base56Calculator.csproj"
+            ],
+            "problemMatcher": "$tsc"
+        }
+    ]
+}
