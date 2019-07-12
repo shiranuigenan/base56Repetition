@@ -21,7 +21,7 @@
             "request": "launch",
             "preLaunchTask": "build Generator",
             "program": "${workspaceFolder}/base56Generator/bin/Debug/netcoreapp3.0/base56Generator.dll",
-            "args": [],
+            "args": ["guid.bin","11"],
             "cwd": "${workspaceFolder}/base56Generator",
             "console": "internalConsole",
             "stopAtEntry": false
