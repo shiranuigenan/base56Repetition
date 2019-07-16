@@ -6,7 +6,8 @@ namespace base56Calculator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Calculator");
+            for (byte i = 0, j = 0; i < 255; i++, j *= 17)
+                Console.WriteLine(++j);
         }
     }
 }
