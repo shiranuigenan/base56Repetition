@@ -11,14 +11,12 @@ namespace base56Repetition
             {
                 var exportPath = args[0];
                 var guidMultiplier = Convert.ToInt32(args[1]);
-                for (byte i = 0, j = 0; i < 232; i++, j *= 17)
+                for (var i = 10; i < 100; i++)
                 {
-                    j++;
-                    if (j == 100) continue;
                     try
                     {
                         var p = new Process { StartInfo = { FileName = "base56Generator" } };
-                        p.StartInfo.Arguments = exportPath + i.ToString("D3") + ".bin " + (guidMultiplier * j);
+                        p.StartInfo.Arguments = exportPath + i + ".bin " + (guidMultiplier * ((int)(i*1.5281)));
                         p.Start();
                         p.PriorityClass = ProcessPriorityClass.BelowNormal;
 

@@ -10,7 +10,7 @@
             "request": "launch",
             "preLaunchTask": "build Repetition",
             "program": "${workspaceFolder}/base56Repetition/bin/Debug/netcoreapp3.0/base56Repetition.dll",
-            "args": ["/media/cash/3AFA-B23E/", "2097152"],
+            "args": ["/media/cash/d/", "8388608"],
             "cwd": "${workspaceFolder}/base56Repetition",
             "console": "internalConsole",
             "stopAtEntry": false
@@ -32,7 +32,7 @@
             "request": "launch",
             "preLaunchTask": "build Calculator",
             "program": "${workspaceFolder}/base56Calculator/bin/Debug/netcoreapp3.0/base56Calculator.dll",
-            "args": [],
+            "args": ["/media/cash/d/"],
             "cwd": "${workspaceFolder}/base56Calculator",
             "console": "internalConsole",
             "stopAtEntry": false
